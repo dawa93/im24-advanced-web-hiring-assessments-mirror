@@ -1,0 +1,158 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 10,
+    "passes": 10,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-12-14T08:37:04.223Z",
+    "end": "2020-12-14T08:37:04.783Z",
+    "duration": 560
+  },
+  "tests": [
+    {
+      "title": "it should sign up successfully when button click",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Signup test it should sign up successfully when button click",
+      "duration": 171,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should display error message when button click without enough information",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Signup test it should display error message when button click without enough information",
+      "duration": 23,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should not be able to send POST request without enough information",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Signup test it should not be able to send POST request without enough information",
+      "duration": 16,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should log in successfully when button click",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Login Test it should log in successfully when button click",
+      "duration": 46,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should display error message when button click without id and password",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Login Test it should display error message when button click without id and password",
+      "duration": 17,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should not be able to send POST request without enough information",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Login Test it should not be able to send POST request without enough information",
+      "duration": 15,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should be called handleResponseSuccess callback after log in",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Login Test it should be called handleResponseSuccess callback after log in",
+      "duration": 232,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should render user information if userinfo is provided",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Mypage test it should render user information if userinfo is provided",
+      "duration": 10,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should render nothing if userinfo is not provided",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Mypage test it should render nothing if userinfo is not provided",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should render logout button with handler from props",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Mypage test it should render logout button with handler from props",
+      "duration": 15,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "it should sign up successfully when button click",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Signup test it should sign up successfully when button click",
+      "duration": 171,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should display error message when button click without enough information",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Signup test it should display error message when button click without enough information",
+      "duration": 23,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should not be able to send POST request without enough information",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Signup test it should not be able to send POST request without enough information",
+      "duration": 16,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should log in successfully when button click",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Login Test it should log in successfully when button click",
+      "duration": 46,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should display error message when button click without id and password",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Login Test it should display error message when button click without id and password",
+      "duration": 17,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should not be able to send POST request without enough information",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Login Test it should not be able to send POST request without enough information",
+      "duration": 15,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should be called handleResponseSuccess callback after log in",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Login Test it should be called handleResponseSuccess callback after log in",
+      "duration": 232,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should render user information if userinfo is provided",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Mypage test it should render user information if userinfo is provided",
+      "duration": 10,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should render nothing if userinfo is not provided",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Mypage test it should render nothing if userinfo is not provided",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should render logout button with handler from props",
+      "fullTitle": "Advanced Web Hiring Assessments - Client Mypage test it should render logout button with handler from props",
+      "duration": 15,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}

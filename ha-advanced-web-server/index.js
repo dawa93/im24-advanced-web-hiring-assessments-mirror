@@ -1,5 +1,7 @@
 const express = require("express");
 require("./models");
+const session = require("express-session");
+const cors = require("cors");
 
 // TODO : express-session, cors 등 필요한 middleware를 추가하세요.
 
@@ -8,6 +10,22 @@ const mainController = require("./controllers");
 const app = express();
 
 const port = 4000;
+
+let corsOption = {
+  origin: ["http://localhost:3000"],
+  method: ["GET", "POST"],
+  credentials: true,
+};
+
+app.use(cors(corsOption));
+app.use(express.json());
+app.use(
+  session({
+    secret: "HAiseasypeasy",
+    resave: false,
+    saveUninitialized: true,
+  })
+);
 
 // TODO : express-session, cors 등 필요한 middleware를 적용하세요.
 
@@ -24,3 +42,5 @@ if (process.env.NODE_ENV !== "test") {
 }
 
 module.exports = app;
+
+// npx sequelize-cli model:generate --name user --attributes username:string,password:string,email:string,mobile:integer
